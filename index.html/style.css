@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff7a7a;
+    padding: 15px 0;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login-box {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-box button {
+    padding: 10px 20px;
+    background-color: #ff7a7a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #ff5252;
+}
+
+section {
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.BSIT {
+    text-align: center;
+    background-color: #ffe5e5;
+    padding: 60px 20px;
+}
+
+#about, #projects, #skills, #contact {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px lightgray;
+    text-align: center;
+}
+
+.project-card {
+    background: #fafafa;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #ff7a7a;
+}
+
+#skills ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
